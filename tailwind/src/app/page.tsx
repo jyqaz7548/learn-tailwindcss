@@ -12,6 +12,9 @@ export default function Home() {
       <div className=" bg-red-950 w-80 h-80   text-9xl text-blue-900  rounded-t-full border-4  border-black hover:bg-red-400 ">
         싶다
       </div>
+      <div>
+        <button></button>
+      </div>
     </div>
   );
 }
