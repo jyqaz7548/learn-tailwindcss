@@ -9,7 +9,7 @@ export default function Home() {
       <div className=" font-noto bg-red-800 w-80 h-80  text-center text-5xl  text-blue-500 leading-10 underline  rounded-full cursor-pointer">
         가고
       </div>
-      <div className=" bg-red-950 w-80 h-80   text-9xl text-blue-900  rounded-t-full border-4  border-black hover:bg-red-400">
+      <div className=" bg-red-950 w-80 h-80   text-9xl text-blue-900  rounded-t-full border-4  border-black hover:bg-red-400 ">
         싶다
       </div>
     </div>
