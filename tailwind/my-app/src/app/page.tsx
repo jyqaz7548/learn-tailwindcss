@@ -1,10 +1,19 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { ChevronDown, ChevronLeft } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="flex justify-center icon h-screen">
-      <Button variant={"ghost"}>click me!</Button>
+    <div className="flex justify-center  items-center h-screen">
+      <Button
+        onClick={() => console.log("click")}
+        className=""
+        variant={"outline"}
+        size={"icon"}
+      >
+        <ChevronLeft />
+      </Button>
     </div>
   );
 }
